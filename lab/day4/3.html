@@ -1,0 +1,58 @@
+<!-- 3 (i) write a JS program to create a paragraph and create seven button [VIBGYOR] click on
+the first button violet above paragraph will show on violet colour. Do the same process on all
+buttons, and also set a reset button it reset to default colour
+(ii) Add two buttons on the above paragraph it will increase and decrease the size of content. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="3.js"></script>
+  </head>
+  <body>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis magni
+        beatae accusantium magnam vero consequuntur ipsum doloribus nam rem.
+        Esse dolor odio molestias incidunt, provident fugit voluptates quasi.
+        Eaque, magni.
+      </p>
+      <input type="button" value="violet" onclick="colours('violet')" />
+      <br /><br />
+      <input
+        type="button"
+        value="indigo"
+        onclick="colours('indigo')"
+      /><br /><br />
+      <input type="button" value="blue" onclick="colours('blue')" /><br />
+      <br />
+      <input
+        type="button"
+        value="green"
+        onclick="colours('green')"
+      /><br /><br />
+      <input
+        type="button"
+        value="yellow"
+        onclick="colours('yellow')"
+      /><br /><br />
+      <input
+        type="button"
+        value="orange"
+        onclick="colours('orange')"
+      /><br /><br />
+      <input type="button" value="red" onclick="colours('red')" /><br /><br />
+      <input
+        type="button"
+        value="increase font"
+        onclick="applyFont('21px')"
+      /><br /><br />
+      <input type="button" value="decrease font" onclick="applyFont('15px')" />
+      <br /><br />
+      <input type="button" value="reset" onclick="applyFont('')" />
+    </div>
+  </body>
+</html>
